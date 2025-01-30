@@ -1,19 +1,3 @@
-# import asyncio
-
-# async def uzun_sureli_gorev():
-#     print("işlem başladi")
-#     await asyncio.sleep(5)
-#     print("işlem sona erdi")
-
-# async def ana_gorev():
-#     print("ana görev başladi")
-#     task = asyncio.create_task(uzun_sureli_gorev())
-#     print("ana görev devam ediyor")
-#     await asyncio.sleep(3)
-#     print("ana görev tamamlandı")
-
-# asyncio.run(ana_gorev())
-
 import asyncio
 import json
 import aiohttp
